@@ -1,0 +1,10 @@
+1creamos  una carpeta llamada sl
+2 apt-get source sl
+3 cd sl-03
+4 modificamos sl.h y agregamos nuestro nombre
+5 dpkg-builpackage -us -uc
+6 dpkg-source --commit
+7 dpkg-builpackage -us -uc
+8 luego nos vamosa un directorio atras y vemos el -deb
+9 procedemos a instalarlo
+
