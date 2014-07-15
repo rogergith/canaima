@@ -1,0 +1,40 @@
+wget http:// ruta   //para descargar un archivo
+
+
+sources.list
+
+aptitude install canaima-llaves // para resolver los problemas de las llaves
+aptitude clean // para eliminar los paquetes .deb despues de una instalacion
+aptitude show sl // para ver un paquete detalladamente
+
+Cuando se bloquea actitude hacemos los siguiente
+brorramos el log o lo que nos indique el gestor de paquete
+
+rm /var/lib/apt/
+
+rm /var/lib/aptitude/
+
+aplicaciones
+sl
+bb
+
+para descargar archivos fuentes
+
+apt-get source 'paquete'
+
+dpkg-dev //instalamos este paquete
+
+------------------------------------------------------
+
+sambemos las ramas
+stable Estable
+Testing Prueba
+Unstable Sib Inestable
+Experimental
+
+
+1 dpkg-buildpackage -us -uc //para empaquetar
+2 dpkg-source --commit // comentamos los cambios
+3 dpkg-buildpackage -us -uc
+4 nos vamos a un directorio atras
+5 procedemos para instalar el paquete con dpkg

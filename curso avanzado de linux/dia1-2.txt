@@ -1,0 +1,110 @@
+rogergith
+
+123github123
+
+
+
+1 creamos el archivo
+	nano archivo.txt
+2 lo agregamos
+	git add 'file'	
+	//subimos los archivos que faltan colocando
+		git add .
+
+3 hacemos un 
+	git commit -a
+
+4 subimos el archivo
+	git push        //Subir los cambios en el servidor
+
+____________________________________________________________
+
+git pull
+
+git log // muestra detalladamente todos los archivos que hemos subido
+
+
+
+git config --global user.name "roger"                //modificamos el autor del archivo     
+git config --global user.email raismaelr@gmail.com   //modificamos el email del usuario
+
+
+git clone https://github.com/rogergith/canaima.git   //para recuperar el de la web
+
+
+
+https://try.github.io/ // para aprender en la web
+
+edx        // para dar curso virtuales
+crusera    // 
+
+
+
+
+
+//para cambiar el pass
+
+1 
+
+mkdir /media/discoduro
+
+2
+
+fdisk -l // verifico donde esta la raiz
+
+3
+
+mount /dev/sda1 /media/discoduro
+
+4
+
+chroot /media/discoduro/  //ingreso al disco duro
+
+5
+
+passwd  //para agregar la nueva impresora
+
+6
+
+umount /media/discoduro/ // desmontamos lo mismo
+
+
+	
+
+
+
+
+blog del profe
+
+blog.julioh.com.ve
+
+GCompris // --------> Aplicacion educativa para niños
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

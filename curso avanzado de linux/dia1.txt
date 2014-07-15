@@ -1,0 +1,25 @@
+passwd            //cambiar la constraseña de root
+ls -la            //Muestra los archivos ocultos
+touch             // Crear y actualiza ficheros
+rmdir             //borra carpetas que no tienen archivos, es decir, borra carpetas vacias
+rm -rf            // Borra carpetas y sub-directorios
+mv 3 pedro        // cambiar el nombre de la carpeta 3 a pedro
+less              // muestra lo que contiene un archivo en forma de paginacion
+tailf /var/log/syslog     // muestra lo que ocurre en el sistema, por ejemplo, probar si el equipo detecta un dispositivo
+top               // lista los procesos en tiempo real
+ps -aux | grep cunaguaro // busco el proceso cunaguaro.
+kill -9 5496      // mato el proceso 5496 con la opcion 9, que mata los procesos padres e hijos
+aptitude search perl > perl.txt //Guardar la busqueda del paquete perl en per.txt
+
+
+
+
+dueño                               
+owner,       grupo,            usuario
+
+  
+  7              7                   7
+4 2 1          4 2 1               4 2 1
+r w x          r w x               r w x
+
+
