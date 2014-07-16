@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Canaima Apure
+Name[es_VE]=Canaima Apure
+GenericName=Canaima Aúre
+GenericName[es_VE]=Canaima Apure
+Comment=Canaima Apure
+Comment[es_VE]=Canaima Apure
+Exec=canaima-bienvenido-gnome
+Type=Application
+Icon=/usr/share/icons/Gnamon/places/scalable/canaima-logo.svg
+Categories=GNOME;GTK;Utility;
+X-GNOME-FullName=Canaima Apure
+X-GNOME-FullName[es]=Canaima Apure
